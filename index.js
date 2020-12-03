@@ -13,8 +13,27 @@ const questions = [
 
     {
         type: "input",
-        message: ""
-    }
+        message: "Describe the project",
+        name: "description",
+    },
+
+    {
+        type: "input",
+        message: "Provide instructions on how to install it",
+        name: "installation",
+    },
+
+    {
+        type: "input",
+        message: "Any contributions to note?",
+        name: "contribution",
+    },
+
+    {
+        type: "input",
+        message: "Test Instructions: ",
+        name: "test",
+    },
 ];
 
 // function to write README file
