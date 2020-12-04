@@ -81,33 +81,33 @@ function init() {
             license = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
         }
     
-    let markdown = `# ${data.title}\n
+let markdown = `# ${data.title}\n
 ## Overview
-    ${data.description}\n
+${data.description}\n
 ## Table of Contents\n
-    1. [Installation](##installation)\n
-    2. [Usage](##usage)\n
-    3. [Contributions](##contribution)\n
-    4. [Test Instructions](##test-instructions)\n
-    5. [Screenshots](##screenshots)\n
-    6. [Licenses](##licenses)\n
-    7. [Questions](##questions)\n
+1. [Installation](#installation)\n
+2. [Usage](##usage)\n
+3. [Contributions](#contribution)\n
+4. [Test Instructions](#test-instructions)\n
+5. [Screenshots](#screenshots)\n
+6. [Licenses](#licenses)\n
+7. [Questions](#questions)\n
 
 ## Installation\n
-    ${data.installation}\n
+ ${data.installation}\n
 ## Usage\n
-    ${data.usage}\n
+${data.usage}\n
 ## Contribution\n
-    ${data.contribution}\n
+${data.contribution}\n
 ## Test Instructions\n
-    ${data.testInstructions}\n
+${data.testInstructions}\n
 ## Screenshots\n
-    ![Screenshot]
+![Screenshot](assets/images/screenshot.png)
 ## License\n
-    ${license}\n    
+${license}\n    
 ## Questions? Contact Me!\n
-    My GitHub is [${data.github}](https://www.github.com/${data.github}).\n
-    My email is [${data.email}](mailto:${data.email}).
+My GitHub is [${data.github}](https://www.github.com/${data.github}).\n
+My email is [${data.email}](mailto:${data.email}).
   
 
   `;
