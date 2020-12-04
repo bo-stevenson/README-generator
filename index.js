@@ -39,7 +39,7 @@ const questions = [
     {
         type: "input",
         message: "Test Instructions: ",
-        name: "test",
+        name: "testIns",
     },
 
     {
@@ -81,12 +81,12 @@ function init() {
             license = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
         }
 //creates markdown for the README file.
-let markdown = `# ${data.title}\n
+let markdownGen = `# ${data.title}\n
 ## Overview
 ${data.description}\n
 ## Table of Contents\n
 1. [Installation](#installation)\n
-2. [Usage](##usage)\n
+2. [Usage](#usage)\n
 3. [Contributions](#contribution)\n
 4. [Test Instructions](#test-instructions)\n
 5. [Screenshots](#screenshots)\n
@@ -100,7 +100,7 @@ ${data.usage}\n
 ## Contribution\n
 ${data.contribution}\n
 ## Test Instructions\n
-${data.test}\n
+${data.testIns}\n
 ## Screenshots\n
 ![Screenshot](assets/images/screenshot.png)
 ![Screenshot](assets/images/screenshot-1.png)
@@ -111,7 +111,7 @@ My GitHub is [${data.github}](https://www.github.com/${data.github}).\n
 My email is [${data.email}](mailto:${data.email}).
 `;
 //Writes the README file and catches errors. 
-    fs.writeFile(fileName, markdown, (error) =>
+    fs.writeFile(fileName, markdownGen, (error) =>
     error ? console.log("Uh oh something went wrong...") : console.log ("Success! README written!"));
      });
 }
