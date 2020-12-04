@@ -80,7 +80,7 @@ function init() {
         if (data.license === "GNU") {
             license = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
         }
-    
+//creates markdown for the README file.
 let markdown = `# ${data.title}\n
 ## Overview
 ${data.description}\n
@@ -100,17 +100,17 @@ ${data.usage}\n
 ## Contribution\n
 ${data.contribution}\n
 ## Test Instructions\n
-${data.testInstructions}\n
+${data.test}\n
 ## Screenshots\n
 ![Screenshot](assets/images/screenshot.png)
+![Screenshot](assets/images/screenshot-1.png)
 ## License\n
 ${license}\n    
 ## Questions? Contact Me!\n
 My GitHub is [${data.github}](https://www.github.com/${data.github}).\n
 My email is [${data.email}](mailto:${data.email}).
-  
-
-  `;
+`;
+//Writes the README file and catches errors. 
     fs.writeFile(fileName, markdown, (error) =>
     error ? console.log("Uh oh something went wrong...") : console.log ("Success! README written!"));
      });
