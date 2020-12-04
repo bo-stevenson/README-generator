@@ -103,7 +103,6 @@ ${data.contribution}\n
 ${data.testIns}\n
 ## Screenshots\n
 ![Screenshot](assets/images/screenshot.png)
-![Screenshot](assets/images/screenshot-1.png)
 ## License\n
 ${license}\n    
 ## Questions? Contact Me!\n
