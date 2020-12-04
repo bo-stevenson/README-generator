@@ -1,32 +1,32 @@
-# title
+# README-generator
 
 ## Overview
-    description
+    This program uses node.js to generate a quality README file for future use on other projects.
 
 ## Table of Contents
 
-    1. [Installation](#installation)
+    1. [Installation](##installation)
 
-    2. [Usage](#usage)
+    2. [Usage](##usage)
 
-    3. [Contributions](#contribution)
+    3. [Contributions](##contribution)
 
-    4. [Test Instructions](#test-instructions)
+    4. [Test Instructions](##test-instructions)
 
-    5. [Screenshots](#screenshots)
+    5. [Screenshots](##screenshots)
 
-    6. [Licenses](#licenses)
+    6. [Licenses](##licenses)
 
-    7. [Questions + Contact Me](#questions)
+    7. [Questions](##questions)
 
 
 ## Installation
 
-    install it
+    Clone from the GitHub Repository.
 
-## Useage
+## Usage
 
-    use it
+    Answer the prompts and the program will automatically generate the README file for you.
 
 ## Contribution
 
@@ -38,18 +38,16 @@
 
 ## Screenshots
 
-    Additional images of the code and product listed below.
-
     ![Screenshot]
-## Licenses
+## License
 
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
     
-## Questions?
+## Questions? Contact Me!
 
-    My GitHub is [bo ](https://www.github.com/bo ).
+    My GitHub is [bo-stevenson](https://www.github.com/bo-stevenson).
 
-    My email is [bo@gmail](mailto:bo@gmail).
+    My email is [bostevenson1027@gmail.com](mailto:bostevenson1027@gmail.com).
   
 
   
